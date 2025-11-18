@@ -12,11 +12,11 @@ public class Exerc15 {
 		c = new int[TAM];
 		
 		 for(i=0; i < TAM; i++){
-	            System.out.print("Digite o " + (i+1) + "บ valor do vetor A: ");
+	            System.out.print("Digite o " + (i+1) + "ยบ valor do vetor A: ");
 	            a[i] = sc.nextInt();
 	        }
 	        for(i=0; i < TAM; i++){
-	            System.out.print("Digite o " + (i+1) + "บ valor do vetor B: ");
+	            System.out.print("Digite o " + (i+1) + "ยบ valor do vetor B: ");
 	            b[i] = sc.nextInt();
 	        }
 	        for(i=0; i < TAM; i++){
@@ -30,9 +30,10 @@ public class Exerc15 {
 	                c[i] = -1;
 	            }
 	        }
-	        System.out.println("\nResultado do vetor C:");
+	        System.out.println("Resultado do vetor C:");
 	        for(i=0; i < TAM; i++){
 	            System.out.println("C[" + i + "] = " + c[i]);
 	        }
 	    }
+
 	}
